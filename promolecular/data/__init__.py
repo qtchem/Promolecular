@@ -1,0 +1,1 @@
+"""Init fo rdata folder"""

@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include promolecular.data/*.npz
+include promolecular.data/*.json
+include promolecular.data.fchk/*.fchk
