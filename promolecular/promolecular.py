@@ -197,7 +197,3 @@ class Promolecular:
         centered = np.linalg.norm(self.mol_coords[:, None, :] - pts[None, :, :], axis=2)
         # i is number of atoms,    j is the points,
         return np.einsum("i,ij->j", self.atom_nums, 1.0 / centered) - esp
-
-
-if __name__ == "__main__":
-    print([x for x in np.load("data/kl_slsqp_results.npz")])
